@@ -3,10 +3,11 @@ import { ConfigModule, ConfigService } from "@nestjs/config";
 import { TypeOrmModule, TypeOrmModuleOptions } from "@nestjs/typeorm";
 
 // Modules
-import { APP_PIPE } from "@nestjs/core";
+import { APP_INTERCEPTOR, APP_PIPE } from "@nestjs/core";
 import { AuthModule } from "./auth/auth.module";
+import { TransformInterceptor } from "./common/interceptors/transform.interceptor";
+import { JwtModule } from "./common/jwt/jwt.module";
 import { UserModule } from "./user/user.module";
-import { JwtModule } from './common/jwt/jwt.module';
 
 @Module({
   imports: [
@@ -36,6 +37,10 @@ import { JwtModule } from './common/jwt/jwt.module';
       useValue: new ValidationPipe({
         whitelist: true,
       }),
+    },
+    {
+      provide: APP_INTERCEPTOR,
+      useClass: TransformInterceptor,
     },
   ],
 })

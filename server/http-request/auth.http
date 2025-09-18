@@ -17,3 +17,9 @@ Content-Type: application/json
     "email": "john.doe@example.com",
     "password": "password"
 }
+
+### Refresh token
+POST http://localhost:3000/api/auth/refresh-token
+
+### Sign out user
+POST http://localhost:3000/api/auth/sign-out

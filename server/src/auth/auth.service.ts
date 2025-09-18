@@ -69,7 +69,7 @@ export class AuthService {
 
       await queryRunner.commitTransaction();
 
-      return user;
+      return { message: "User created successfully", data: user };
     } catch (error) {
       await queryRunner.rollbackTransaction();
       throw error;
@@ -140,7 +140,7 @@ export class AuthService {
     });
 
     // Return user
-    return user;
+    return { message: "Signed in successfully", data: user };
   }
 
   async signOut(userId: string, res: Response) {

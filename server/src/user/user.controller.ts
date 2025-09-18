@@ -1,4 +1,12 @@
-import { Body, Controller, Get, Param, Patch, UseGuards } from "@nestjs/common";
+import {
+  Body,
+  Controller,
+  Get,
+  HttpCode,
+  Param,
+  Patch,
+  UseGuards,
+} from "@nestjs/common";
 
 // Services
 import { UserService } from "./user.service";
@@ -20,23 +28,21 @@ import { User } from "./entities/user.entity";
 export class UserController {
   constructor(private userService: UserService) {}
 
-  @Patch("/:userId")
-  async updateUser(
-    @Param("userId") userId: string,
-    @Body() body: UpdateUserDto,
-  ) {
-    return this.userService.update(userId, body);
+  @Patch("/me")
+  @HttpCode(200)
+  async updateUser(@Body() body: UpdateUserDto, @CurrentUser() user: User) {
+    return this.userService.update(user.id, body);
   }
 
   @Get("/me")
+  @HttpCode(200)
   @Serialize(UserDto)
   getMe(@CurrentUser() user: User) {
-    const { id } = user;
-    console.log(id);
     return this.userService.findMe(user.id);
   }
 
   @Get("/:userId")
+  @HttpCode(200)
   async findUserById(@Param("userId") userId: string) {
     return this.userService.findById(userId);
   }

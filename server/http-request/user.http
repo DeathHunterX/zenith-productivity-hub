@@ -1,2 +1,16 @@
 ### Get user by id
 GET http://localhost:3000/api/user/16e0fef3-bf1e-47b1-95b5-8dd6e1c4952f
+
+
+### Get me
+GET http://localhost:3000/api/user/me
+
+### Update user
+PATCH http://localhost:3000/api/user/me
+Content-Type: application/json
+
+{
+    "full_name": "John Doe",
+    "city": "New York",
+    "country": "United States"
+}

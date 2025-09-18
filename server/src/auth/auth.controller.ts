@@ -1,4 +1,11 @@
-import { Body, Controller, Post, Res, UseGuards } from "@nestjs/common";
+import {
+  Body,
+  Controller,
+  HttpCode,
+  Post,
+  Res,
+  UseGuards,
+} from "@nestjs/common";
 import { Response } from "express";
 
 // Services
@@ -20,11 +27,13 @@ export class AuthController {
   constructor(private authService: AuthService) {}
 
   @Post("/sign-up")
+  @HttpCode(201)
   async signUp(@Body() body: SignUpDto) {
     return await this.authService.signUp(body);
   }
 
   @Post("/sign-in")
+  @HttpCode(200)
   async signIn(
     @Body() body: SignInDto,
     @Res({ passthrough: true }) res: Response,
@@ -34,6 +43,7 @@ export class AuthController {
 
   @UseGuards(AuthGuard)
   @Post("/sign-out")
+  @HttpCode(200)
   async signOut(
     @CurrentUser() user: User,
     @Res({ passthrough: true }) res: Response,
@@ -43,6 +53,7 @@ export class AuthController {
 
   @UseGuards(AuthGuard)
   @Post("/refresh-token")
+  @HttpCode(200)
   async refreshToken(
     @CurrentUser() user: User,
     @Res({ passthrough: true }) res: Response,
