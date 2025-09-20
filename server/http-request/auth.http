@@ -1,5 +1,5 @@
 ### Sign up user
-POST http://localhost:3000/api/auth/sign-up
+POST http://localhost:5000/api/auth/sign-up
 Content-Type: application/json
 
 {
@@ -10,7 +10,7 @@ Content-Type: application/json
 
 
 ### Sign in user
-POST http://localhost:3000/api/auth/sign-in
+POST http://localhost:5000/api/auth/sign-in
 Content-Type: application/json
 
 {
@@ -19,7 +19,7 @@ Content-Type: application/json
 }
 
 ### Refresh token
-POST http://localhost:3000/api/auth/refresh-token
+POST http://localhost:5000/api/auth/refresh-token
 
 ### Sign out user
-POST http://localhost:3000/api/auth/sign-out
+POST http://localhost:5000/api/auth/sign-out

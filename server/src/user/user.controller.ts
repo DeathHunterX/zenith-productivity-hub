@@ -38,7 +38,7 @@ export class UserController {
   @HttpCode(200)
   @Serialize(UserDto)
   getMe(@CurrentUser() user: User) {
-    return this.userService.findMe(user.id);
+    return this.userService.findWithAccounts({ userId: user.id });
   }
 
   @Get("/:userId")

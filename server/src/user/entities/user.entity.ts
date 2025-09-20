@@ -12,10 +12,13 @@ export class User {
   @Column()
   email: string;
 
-  @Column()
+  @Column({ nullable: true })
+  image: string;
+
+  @Column({ nullable: true })
   city: string;
 
-  @Column()
+  @Column({ nullable: true })
   country: string;
 
   @OneToMany(() => Account, (account) => account.user)

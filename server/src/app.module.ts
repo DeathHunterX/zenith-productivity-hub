@@ -1,20 +1,27 @@
 import { Module, ValidationPipe } from "@nestjs/common";
 import { ConfigModule, ConfigService } from "@nestjs/config";
+import { APP_INTERCEPTOR, APP_PIPE } from "@nestjs/core";
 import { TypeOrmModule, TypeOrmModuleOptions } from "@nestjs/typeorm";
 
 // Modules
-import { APP_INTERCEPTOR, APP_PIPE } from "@nestjs/core";
+import { ScheduleModule } from "@nestjs/schedule";
 import { AuthModule } from "./auth/auth.module";
-import { TransformInterceptor } from "./common/interceptors/transform.interceptor";
 import { JwtModule } from "./common/jwt/jwt.module";
+import { SessionModule } from "./session/session.module";
 import { UserModule } from "./user/user.module";
+
+// Interceptors
+import { TransformInterceptor } from "./common/interceptors/transform.interceptor";
 
 @Module({
   imports: [
+    //  Configuration Module
     ConfigModule.forRoot({
       isGlobal: true,
       envFilePath: `.env.${process.env.NODE_ENV}`,
     }),
+
+    //  TypeORM Module
     TypeOrmModule.forRootAsync({
       useFactory: (configService: ConfigService) => ({
         type: configService.get<string>(
@@ -26,9 +33,15 @@ import { UserModule } from "./user/user.module";
       }),
       inject: [ConfigService],
     }),
+
+    //  Schedule Module
+    ScheduleModule.forRoot(),
+
+    //  Modules
     AuthModule,
     UserModule,
     JwtModule,
+    SessionModule,
   ],
   controllers: [],
   providers: [

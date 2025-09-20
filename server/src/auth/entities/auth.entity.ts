@@ -5,6 +5,7 @@ import {
   JoinColumn,
   ManyToOne,
   PrimaryGeneratedColumn,
+  Unique,
 } from "typeorm";
 
 export enum ProviderType {
@@ -19,6 +20,7 @@ export enum AccountType {
 }
 
 @Entity()
+@Unique(["provider", "providerAccountId"])
 export class Account {
   @PrimaryGeneratedColumn("uuid")
   id: string;
@@ -37,20 +39,8 @@ export class Account {
   })
   provider: ProviderType;
 
-  @Column()
+  @Column({ nullable: true })
   passwordHash: string;
-
-  @Column({ nullable: true })
-  accessToken?: string;
-
-  @Column({ nullable: true })
-  refreshToken?: string;
-
-  @Column({ nullable: true })
-  accessTokenExpiresAt?: Date;
-
-  @Column({ nullable: true })
-  refreshTokenExpiresAt?: Date;
 
   @Column({
     type: "enum",

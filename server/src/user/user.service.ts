@@ -7,6 +7,7 @@ import { User } from "./entities/user.entity";
 
 // DTOs
 import { CreateUserDto } from "./dto/create-user.dto";
+import { FindUserDto } from "./dto/find-with-account.dto";
 import { UpdateUserDto } from "./dto/update-user.dto";
 
 @Injectable()
@@ -35,16 +36,23 @@ export class UserService {
     return this.userRepository.save(user);
   }
 
-  async findById(userId: string) {
-    return this.userRepository.findOne({ where: { id: userId } });
+  async findWithAccounts(body: FindUserDto) {
+    const qb = this.userRepository
+      .createQueryBuilder("user")
+      .leftJoinAndSelect("user.accounts", "account");
+
+    if (body.userId) {
+      qb.where("user.id = :id", { id: body.userId });
+    }
+    if (body.email) {
+      qb.where("user.email = :email", { email: body.email });
+    }
+
+    return qb.getOne();
   }
 
-  async findMe(userId: string) {
-    return this.userRepository
-      .createQueryBuilder("user")
-      .leftJoinAndSelect("user.accounts", "account")
-      .where("user.id = :id", { id: userId })
-      .getOne();
+  async findById(userId: string) {
+    return this.userRepository.findOne({ where: { id: userId } });
   }
 
   async findByEmail(email: string) {
