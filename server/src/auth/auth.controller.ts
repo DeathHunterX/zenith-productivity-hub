@@ -8,6 +8,7 @@ import {
   Res,
   UseGuards,
 } from "@nestjs/common";
+import { ConfigService } from "@nestjs/config";
 
 import { Request, Response } from "express";
 
@@ -35,7 +36,10 @@ import { AuthResponseDto } from "./dtos/auth.dto";
 
 @Controller("auth")
 export class AuthController {
-  constructor(private authService: AuthService) {}
+  constructor(
+    private authService: AuthService,
+    private configService: ConfigService,
+  ) {}
 
   @Post("/sign-up")
   @Serialize(AuthResponseDto)
@@ -86,7 +90,9 @@ export class AuthController {
     @Req() req: Request & { user: OAuthProfileTransport },
     @Res({ passthrough: true }) res: Response,
   ) {
-    return await this.authService.signInWithOAuth(req.user, res);
+    await this.authService.signInWithOAuth(req.user, res);
+
+    return res.redirect(`${this.configService.get("CLIENT_URL")!}/dashboard`);
   }
 
   // Github OAuth
@@ -100,6 +106,8 @@ export class AuthController {
     @Req() req: Request & { user: OAuthProfileTransport },
     @Res({ passthrough: true }) res: Response,
   ) {
-    return await this.authService.signInWithOAuth(req.user, res);
+    await this.authService.signInWithOAuth(req.user, res);
+
+    return res.redirect(`${this.configService.get("CLIENT_URL")!}/dashboard`);
   }
 }

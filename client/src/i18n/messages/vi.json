@@ -1,0 +1,293 @@
+{
+  "navigation": {
+    "features": "Tính năng",
+    "pricing": "Bảng giá",
+    "integrations": "Tích hợp",
+    "faqs": "Câu hỏi thường gặp",
+    "signIn": "Đăng nhập",
+    "getStarted": "Bắt đầu"
+  },
+
+  "hero": {
+    "trustedBy": "Được tin tưởng bởi hơn 25,000 chuyên gia trên toàn thế giới",
+    "title": "Đạt Đỉnh Cao,\nGiữ Cân Bằng",
+    "description": "Zenith là nền tảng năng suất được hỗ trợ bởi AI, thích ứng với phong cách làm việc độc đáo của bạn. Kết hợp quản lý tác vụ thông minh, theo dõi sức khỏe và quy trình tự động để đạt hiệu suất cao nhất mà không hy sinh cuộc sống cá nhân.",
+    "actions": {
+      "startFreeTrial": "Bắt đầu dùng thử miễn phí",
+      "watchDemo": "Xem demo"
+    },
+    "highlights": {
+      "freeTrialDays": "Dùng thử miễn phí 14 ngày",
+      "noCreditCard": "Không cần thẻ tín dụng",
+      "cancelAnytime": "Hủy bất cứ lúc nào"
+    }
+  },
+
+  "stats": {
+    "activeUsers": "Người dùng hoạt động",
+    "productivityIncrease": "Tăng năng suất",
+    "dailyTimeSaved": "Thời gian tiết kiệm hàng ngày",
+    "userSatisfaction": "Sự hài lòng của người dùng"
+  },
+
+  "whyDifferent": {
+    "title": "Tại sao Zenith khác biệt",
+    "description": "Được xây dựng bởi các chuyên gia năng suất và chuyên gia sức khỏe, Zenith kết hợp AI tiên tiến với các nguyên tắc tâm lý đã được chứng minh",
+    "items": {
+      "aiIntelligence": {
+        "title": "Trí tuệ AI mạnh mẽ",
+        "description": "Thuật toán học máy của chúng tôi học hỏi các mẫu của bạn, dự đoán mức năng lượng và tự động tối ưu hóa lịch trình để đạt năng suất và sức khỏe tối đa."
+      },
+      "privacyFirst": {
+        "title": "Thiết kế ưu tiên quyền riêng tư",
+        "description": "Dữ liệu của bạn thuộc về bạn. Mã hóa đầu cuối, không bán dữ liệu và hoàn toàn minh bạch về cách thông tin của bạn được sử dụng."
+      },
+      "provenResults": {
+        "title": "Kết quả đã được chứng minh",
+        "description": "Người dùng báo cáo tăng 40% năng suất, giảm 60% mức độ căng thẳng và lấy lại 3+ giờ thời gian cá nhân mỗi tuần trong tháng đầu tiên."
+      }
+    }
+  },
+
+  "features": {
+    "title": "Hệ sinh thái năng suất hoàn chỉnh",
+    "description": "Mọi công cụ bạn cần để xuất sắc trong công việc đồng thời duy trì sức khỏe cá nhân, tất cả trong một nền tảng tích hợp",
+    "items": {
+      "smartTaskManagement": {
+        "title": "Quản lý tác vụ thông minh",
+        "description": "Ưu tiên tác vụ được hỗ trợ bởi AI với lập lịch dựa trên năng lượng, theo dõi deadline tự động và cân bằng khối lượng công việc thông minh"
+      },
+      "intelligentTimeBlocking": {
+        "title": "Phân chia thời gian thông minh",
+        "description": "Tự động lên lịch các phiên làm việc tập trung với thời gian nghỉ tối ưu, vùng không có cuộc họp và bảo vệ công việc sâu"
+      },
+      "wellnessIntegration": {
+        "title": "Tích hợp sức khỏe",
+        "description": "Theo dõi tâm trạng, năng lượng và căng thẳng toàn diện với các khuyến nghị cá nhân hóa cho nghỉ ngơi, tập thể dục và thực hành chánh niệm"
+      },
+      "advancedAnalytics": {
+        "title": "Phân tích nâng cao",
+        "description": "Thông tin chi tiết về các mẫu năng suất, số liệu cân bằng công việc-cuộc sống và khuyến nghị cá nhân hóa để cải thiện liên tục"
+      },
+      "teamCollaboration": {
+        "title": "Hợp tác nhóm",
+        "description": "Phối hợp nhóm liền mạch với giao tiếp tôn trọng ranh giới, khả năng hiển thị dự án chung và thiết lập mục tiêu hợp tác"
+      },
+      "crossPlatformSync": {
+        "title": "Đồng bộ đa nền tảng",
+        "description": "Ứng dụng gốc cho máy tính để bàn, di động và web với đồng bộ hóa thời gian thực, khả năng ngoại tuyến và chuyển đổi thiết bị liền mạch"
+      }
+    }
+  },
+
+  "useCases": {
+    "title": "Hoàn hảo cho mọi chuyên gia",
+    "description": "Dù bạn đang lãnh đạo một nhóm, làm việc một mình hay quản lý nhiều dự án, Zenith thích ứng với nhu cầu độc đáo của bạn",
+    "items": {
+      "executives": {
+        "title": "Giám đốc điều hành & Quản lý",
+        "description": "Lập kế hoạch chiến lược, giám sát nhóm và ra quyết định cấp cao trong khi duy trì ranh giới công việc-cuộc sống"
+      },
+      "freelancers": {
+        "title": "Freelancer & Tư vấn viên",
+        "description": "Quản lý dự án khách hàng, theo dõi thời gian và duy trì nhiều nguồn thu nhập mà không bị kiệt sức"
+      },
+      "remoteWorkers": {
+        "title": "Nhân viên làm việc từ xa",
+        "description": "Năng suất văn phòng tại nhà, hợp tác ảo và phân tách rõ ràng giữa thời gian làm việc và cá nhân"
+      },
+      "startupTeams": {
+        "title": "Nhóm Startup",
+        "description": "Mở rộng nhanh chóng, tối ưu hóa tài nguyên và duy trì sức khỏe nhóm trong giai đoạn tăng trưởng cao"
+      }
+    }
+  },
+
+  "integrations": {
+    "title": "Kết nối liền mạch với các công cụ của bạn",
+    "description": "Zenith tích hợp với hơn 100 công cụ phổ biến để tập trung quy trình làm việc mà không làm gián đoạn các quy trình hiện có",
+    "viewAll": "Xem tất cả 100+ tích hợp"
+  },
+
+  "pricing": {
+    "title": "Giá cả đơn giản, minh bạch",
+    "description": "Chọn gói phù hợp với nhu cầu của bạn. Tất cả các gói đều bao gồm các tính năng năng suất cốt lõi và hỗ trợ 24/7",
+    "plans": {
+      "starter": {
+        "name": "Khởi đầu",
+        "description": "Hoàn hảo cho cá nhân mới bắt đầu",
+        "features": [
+          "Tối đa 100 tác vụ/tháng",
+          "Lập lịch AI cơ bản",
+          "Theo dõi sức khỏe",
+          "Ứng dụng di động & web"
+        ]
+      },
+      "professional": {
+        "name": "Chuyên nghiệp",
+        "description": "Lý tưởng cho các chuyên gia và nhóm nhỏ",
+        "features": [
+          "Tác vụ & dự án không giới hạn",
+          "Thông tin chi tiết AI nâng cao",
+          "Hợp tác nhóm (tối đa 5)",
+          "Tất cả tích hợp",
+          "Hỗ trợ ưu tiên"
+        ],
+        "mostPopular": "Phổ biến nhất"
+      },
+      "enterprise": {
+        "name": "Doanh nghiệp",
+        "description": "Cho các nhóm lớn và tổ chức",
+        "features": [
+          "Mọi thứ trong Chuyên nghiệp",
+          "Thành viên nhóm không giới hạn",
+          "Bảo mật & tuân thủ nâng cao",
+          "Tích hợp tùy chỉnh",
+          "Quản lý thành công chuyên dụng"
+        ],
+        "cta": "Liên hệ bán hàng"
+      }
+    },
+    "mostPopular": "Phổ biến nhất",
+    "contactSales": "Liên hệ bán hàng",
+    "actions": {
+      "startFreeTrial": "Bắt đầu dùng thử miễn phí",
+      "contactSales": "Liên hệ bán hàng"
+    }
+  },
+
+  "faq": {
+    "title": "Câu hỏi thường gặp",
+    "description": "Mọi thứ bạn cần biết về Zenith và cách nó có thể biến đổi năng suất của bạn",
+    "items": [
+      {
+        "question": "AI của Zenith hoạt động như thế nào?",
+        "answer": "Zenith sử dụng các thuật toán học máy tiên tiến để phân tích các mẫu làm việc, mức năng lượng và chu kỳ năng suất của bạn. Nó học từ hành vi của bạn để tự động ưu tiên các tác vụ, đề xuất thời gian làm việc tối ưu và khuyến nghị nghỉ ngơi khi bạn cần nhất."
+      },
+      {
+        "question": "Dữ liệu của tôi có an toàn và riêng tư không?",
+        "answer": "Hoàn toàn có. Chúng tôi sử dụng mã hóa cấp ngân hàng, được chứng nhận SOC 2 Type II và tuân thủ GDPR. Dữ liệu của bạn không bao giờ được bán cho bên thứ ba và bạn có toàn quyền kiểm soát thông tin của mình."
+      },
+      {
+        "question": "Có những tích hợp nào?",
+        "answer": "Zenith tích hợp với hơn 100 công cụ phổ biến bao gồm Slack, Gmail, Google Calendar, Notion, Airtable, Zoom, Microsoft Office, Trello, Asana và nhiều hơn nữa."
+      },
+      {
+        "question": "Zenith khác gì so với các ứng dụng năng suất khác?",
+        "answer": "Không giống như các trình quản lý tác vụ truyền thống, Zenith tập trung vào cân bằng công việc-cuộc sống với theo dõi sức khỏe được hỗ trợ bởi AI, lập lịch dựa trên năng lượng và phòng ngừa kiệt sức."
+      },
+      {
+        "question": "Tôi sẽ thấy kết quả nhanh như thế nào?",
+        "answer": "Hầu hết người dùng báo cáo cải thiện đáng chú ý trong tuần đầu tiên, với tăng năng suất đáng kể và giảm căng thẳng trong vòng 30 ngày."
+      },
+      {
+        "question": "Nhóm của tôi có thể sử dụng Zenith cùng nhau không?",
+        "answer": "Có! Zenith cung cấp các tính năng hợp tác nhóm mạnh mẽ bao gồm dự án chung, phân tích nhóm, công cụ giao tiếp tôn trọng ranh giới và thiết lập mục tiêu hợp tác."
+      },
+      {
+        "question": "Làm thế nào để bắt đầu?",
+        "answer": "Chỉ cần đăng ký dùng thử miễn phí 14 ngày—không cần thẻ tín dụng. Quá trình onboarding chỉ mất 5 phút và AI của chúng tôi sẽ bắt đầu học các mẫu của bạn ngay lập tức."
+      },
+      {
+        "question": "Tôi có thể hủy đăng ký bất cứ lúc nào không?",
+        "answer": "Có, bạn có thể hủy đăng ký bất cứ lúc nào mà không có phạt hoặc phí. Dữ liệu của bạn vẫn có thể truy cập trong thời gian thanh toán."
+      }
+    ]
+  },
+
+  "testimonials": {
+    "title": "Được yêu thích bởi các chuyên gia trên toàn thế giới",
+    "descriptions": [
+      "Zenith đã biến đổi cách tôi quản lý khối lượng công việc. Lập lịch AI cực kỳ chính xác và tôi đã lấy lại 4 giờ thời gian cá nhân mỗi tuần.",
+      "Là giám đốc marketing, tôi liên tục bị quá tải. Tích hợp sức khỏe của Zenith đã giúp tôi nhận ra các mẫu kiệt sức và duy trì hiệu suất cao bền vững.",
+      "Các tính năng hợp tác nhóm thật sự thay đổi cuộc chơi. Chúng tôi phối hợp tốt hơn bao giờ hết trong khi tôn trọng ranh giới công việc-cuộc sống của nhau."
+    ]
+  },
+
+  "securitySupport": {
+    "title": "Bảo mật và hỗ trợ cấp doanh nghiệp",
+    "description": "Được xây dựng với bảo mật và độ tin cậy làm cốt lõi, được tin tưởng bởi các nhóm tại các công ty Fortune 500",
+    "details": {
+      "security": "Được chứng nhận SOC 2 Type II, tuân thủ GDPR, với mã hóa đầu cuối và kiểm tra bảo mật thường xuyên",
+      "uptime": "Cơ sở hạ tầng đáng tin cậy với sao lưu tự động, khôi phục thảm họa và CDN toàn cầu cho hiệu suất nhanh",
+      "support": "Nhóm hỗ trợ chuyên gia có sẵn suốt ngày đêm với thời gian phản hồi trung bình dưới 2 giờ"
+    }
+  },
+
+  "cta": {
+    "title": "Sẵn sàng đạt đỉnh cao?",
+    "description": "Tham gia hàng ngàn chuyên gia đã tìm thấy sự cân bằng hoàn hảo giữa công việc và cuộc sống với năng suất được hỗ trợ bởi AI",
+    "actions": {
+      "startFreeTrial": "Bắt đầu dùng thử miễn phí",
+      "scheduleDemo": "Lên lịch demo"
+    },
+    "highlights": {
+      "freeTrialDays": "Dùng thử miễn phí 14 ngày",
+      "noCreditCard": "Không cần thẻ tín dụng",
+      "cancelAnytime": "Hủy bất cứ lúc nào"
+    }
+  },
+
+  "footer": {
+    "description": "Đạt năng suất đỉnh cao trong khi duy trì sự cân bằng hoàn hảo giữa công việc và cuộc sống với thông tin chi tiết được hỗ trợ bởi AI.",
+    "links": {
+      "product": "Sản phẩm",
+      "company": "Công ty",
+      "support": "Hỗ trợ",
+      "about": "Giới thiệu",
+      "blog": "Blog",
+      "careers": "Tuyển dụng",
+      "contact": "Liên hệ",
+      "helpCenter": "Trung tâm trợ giúp",
+      "documentation": "Tài liệu",
+      "community": "Cộng đồng",
+      "status": "Trạng thái",
+      "security": "Bảo mật"
+    },
+    "copyright": "© 2025 Zenith. Tất cả quyền được bảo lưu. Đạt đỉnh cao, giữ cân bằng."
+  },
+
+  "auth": {
+    "orContinueWith": "Hoặc tiếp tục với",
+    "signIn": {
+      "title": "Chào mừng trở lại Zenith",
+      "description": "Đăng nhập vào tài khoản Zenith của bạn để tiếp tục hành trình năng suất",
+      "forgotPassword": "Quên mật khẩu?",
+      "actions": {
+        "areYouNew": "Bạn là người mới?",
+        "createAccount": "Tạo tài khoản"
+      },
+
+      "form": {
+        "email": "Email",
+        "password": "Mật khẩu",
+        "login": "Đăng nhập"
+      },
+      "socialMedia": {
+        "google": "Đăng nhập với Google",
+        "github": "Đăng nhập với GitHub"
+      }
+    },
+    "signUp": {
+      "title": "Chào mừng đến Zenith",
+      "description": "Tạo tài khoản để bắt đầu hành trình năng suất",
+      "actions": {
+        "alreadyHaveAccount": "Đã có tài khoản?",
+        "signIn": "Đăng nhập"
+      },
+      "orContinueWith": "Hoặc tiếp tục với",
+      "form": {
+        "firstName": "Tên",
+        "lastName": "Họ",
+        "email": "Email",
+        "password": "Mật khẩu",
+        "confirmPassword": "Xác nhận mật khẩu",
+        "register": "Đăng ký"
+      },
+      "socialMedia": {
+        "google": "Đăng nhập với Google",
+        "github": "Đăng nhập với GitHub"
+      }
+    }
+  }
+}

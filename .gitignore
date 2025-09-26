@@ -1,0 +1,32 @@
+*/node_modules
+
+# Environment variables
+*/.env*
+
+
+# Lock files
+package-lock.json
+
+bun.lock
+bun.lockb
+
+
+# Client
+*/.next
+
+# Server
+*/dist
+*/build
+*/.next
+
+# Documentation
+*/documentation
+
+# Logs
+*/logs
+*.log
+npm-debug.log*
+pnpm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*

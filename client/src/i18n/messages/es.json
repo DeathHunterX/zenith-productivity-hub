@@ -1,0 +1,293 @@
+{
+  "navigation": {
+    "features": "Características",
+    "pricing": "Precios",
+    "integrations": "Integraciones",
+    "faqs": "Preguntas frecuentes",
+    "signIn": "Iniciar sesión",
+    "getStarted": "Comenzar"
+  },
+
+  "hero": {
+    "trustedBy": "🚀 Confiado por más de 25,000 profesionales en todo el mundo",
+    "title": "Alcanza Tu Cima,\nMantén El Equilibrio",
+    "description": "Zenith es la plataforma de productividad impulsada por IA que se adapta a tu estilo de trabajo único. Combina gestión inteligente de tareas, seguimiento de bienestar y flujos de trabajo automatizados para lograr el máximo rendimiento sin sacrificar tu vida personal.",
+    "actions": {
+      "startFreeTrial": "Comenzar prueba gratuita",
+      "watchDemo": "Ver demo"
+    },
+    "highlights": {
+      "freeTrialDays": "Prueba gratuita de 14 días",
+      "noCreditCard": "No se requiere tarjeta de crédito",
+      "cancelAnytime": "Cancela en cualquier momento"
+    }
+  },
+
+  "stats": {
+    "activeUsers": "Usuarios activos",
+    "productivityIncrease": "Aumento de productividad",
+    "dailyTimeSaved": "Tiempo ahorrado diariamente",
+    "userSatisfaction": "Satisfacción del usuario"
+  },
+
+  "whyDifferent": {
+    "title": "Por qué Zenith es diferente",
+    "description": "Construido por expertos en productividad y profesionales del bienestar, Zenith combina IA de vanguardia con principios psicológicos probados",
+    "items": {
+      "aiIntelligence": {
+        "title": "Inteligencia impulsada por IA",
+        "description": "Nuestros algoritmos de aprendizaje automático aprenden tus patrones, predicen tus niveles de energía y optimizan automáticamente tu horario para máxima productividad y bienestar."
+      },
+      "privacyFirst": {
+        "title": "Diseño que prioriza la privacidad",
+        "description": "Tus datos siguen siendo tuyos. Cifrado de extremo a extremo, cero venta de datos y completa transparencia sobre cómo se usa tu información."
+      },
+      "provenResults": {
+        "title": "Resultados probados",
+        "description": "Los usuarios reportan un 40% de aumento en productividad, 60% de reducción en niveles de estrés y 3+ horas de tiempo personal recuperado por semana en el primer mes."
+      }
+    }
+  },
+
+  "features": {
+    "title": "Ecosistema de productividad completo",
+    "description": "Todas las herramientas que necesitas para sobresalir profesionalmente mientras mantienes el bienestar personal, todo en una plataforma integrada",
+    "items": {
+      "smartTaskManagement": {
+        "title": "Gestión inteligente de tareas",
+        "description": "Priorización de tareas impulsada por IA con programación basada en energía, seguimiento automático de fechas límite y equilibrio inteligente de carga de trabajo"
+      },
+      "intelligentTimeBlocking": {
+        "title": "Bloqueo de tiempo inteligente",
+        "description": "Programa automáticamente sesiones de trabajo enfocado con tiempo de descanso óptimo, zonas libres de reuniones y protección de trabajo profundo"
+      },
+      "wellnessIntegration": {
+        "title": "Integración de bienestar",
+        "description": "Seguimiento integral de estado de ánimo, energía y estrés con recomendaciones personalizadas para descansos, ejercicio y prácticas de atención plena"
+      },
+      "advancedAnalytics": {
+        "title": "Análisis avanzado",
+        "description": "Información detallada sobre patrones de productividad, métricas de equilibrio trabajo-vida y recomendaciones personalizadas para mejora continua"
+      },
+      "teamCollaboration": {
+        "title": "Colaboración en equipo",
+        "description": "Coordinación de equipo sin problemas con comunicación que respeta límites, visibilidad de proyectos compartidos y establecimiento de objetivos colaborativos"
+      },
+      "crossPlatformSync": {
+        "title": "Sincronización multiplataforma",
+        "description": "Aplicaciones nativas para escritorio, móvil y web con sincronización en tiempo real, capacidades sin conexión y cambio de dispositivo sin problemas"
+      }
+    }
+  },
+
+  "useCases": {
+    "title": "Perfecto para cada profesional",
+    "description": "Ya sea que lideres un equipo, trabajes solo o gestiones múltiples proyectos, Zenith se adapta a tus necesidades únicas",
+    "items": {
+      "executives": {
+        "title": "Ejecutivos y gerentes",
+        "description": "Planificación estratégica, supervisión de equipos y toma de decisiones de alto nivel mientras mantienes límites trabajo-vida"
+      },
+      "freelancers": {
+        "title": "Freelancers y consultores",
+        "description": "Gestión de proyectos de clientes, seguimiento de tiempo y mantenimiento de múltiples fuentes de ingresos sin agotamiento"
+      },
+      "remoteWorkers": {
+        "title": "Trabajadores remotos",
+        "description": "Productividad de oficina en casa, colaboración virtual y separación clara entre tiempo de trabajo y personal"
+      },
+      "startupTeams": {
+        "title": "Equipos de startup",
+        "description": "Escalado rápido, optimización de recursos y mantenimiento del bienestar del equipo durante fases de alto crecimiento"
+      }
+    }
+  },
+
+  "integrations": {
+    "title": "Se conecta perfectamente con tus herramientas",
+    "description": "Zenith se integra con más de 100 herramientas populares para centralizar tu flujo de trabajo sin interrumpir tus procesos existentes",
+    "viewAll": "Ver todas las 100+ integraciones"
+  },
+
+  "pricing": {
+    "title": "Precios simples y transparentes",
+    "description": "Elige el plan que se ajuste a tus necesidades. Todos los planes incluyen nuestras características de productividad principales y soporte 24/7",
+    "plans": {
+      "starter": {
+        "title": "Inicial",
+        "description": "Perfecto para individuos que comienzan",
+        "features": [
+          "Hasta 100 tareas/mes",
+          "Programación IA básica",
+          "Seguimiento de bienestar",
+          "Apps móvil y web"
+        ],
+        "actions": "startFreeTrial"
+      },
+      "professional": {
+        "title": "Profesional",
+        "description": "Ideal para profesionales y equipos pequeños",
+        "features": [
+          "Tareas y proyectos ilimitados",
+          "Insights IA avanzados",
+          "Colaboración en equipo (hasta 5)",
+          "Todas las integraciones",
+          "Soporte prioritario"
+        ],
+        "actions": "startFreeTrial"
+      },
+      "enterprise": {
+        "title": "Empresa",
+        "description": "Para equipos grandes y organizaciones",
+        "features": [
+          "Todo en Profesional",
+          "Miembros de equipo ilimitados",
+          "Seguridad y cumplimiento avanzados",
+          "Integraciones personalizadas",
+          "Gerente de éxito dedicado"
+        ],
+        "actions": "contactSales"
+      }
+    },
+    "mostPopular": "Más popular",
+    "contactSales": "Contactar ventas",
+    "actions": {
+      "startFreeTrial": "Comenzar prueba gratuita",
+      "contactSales": "Contactar ventas"
+    }
+  },
+
+  "faq": {
+    "title": "Preguntas frecuentes",
+    "description": "Todo lo que necesitas saber sobre Zenith y cómo puede transformar tu productividad",
+    "items": [
+      {
+        "question": "¿Cómo funciona realmente la IA de Zenith?",
+        "answer": "Zenith utiliza algoritmos avanzados de aprendizaje automático para analizar tus patrones de trabajo, niveles de energía y ciclos de productividad..."
+      },
+      {
+        "question": "¿Mis datos están seguros y privados?",
+        "answer": "Absolutamente. Utilizamos cifrado de nivel bancario, estamos certificados SOC 2 Type II y cumplimos con GDPR..."
+      },
+      {
+        "question": "¿Qué integraciones están disponibles?",
+        "answer": "Zenith se integra con más de 100 herramientas populares incluyendo Slack, Gmail, Google Calendar..."
+      },
+      {
+        "question": "¿En qué se diferencia Zenith de otras apps de productividad?",
+        "answer": "A diferencia de los gestores de tareas tradicionales, Zenith se enfoca en el equilibrio trabajo-vida..."
+      },
+      {
+        "question": "¿Qué tan rápido veré resultados?",
+        "answer": "La mayoría de usuarios reportan mejoras notables en la primera semana..."
+      },
+      {
+        "question": "¿Puede mi equipo usar Zenith juntos?",
+        "answer": "¡Sí! Zenith ofrece características robustas de colaboración en equipo..."
+      },
+      {
+        "question": "¿Cómo empiezo?",
+        "answer": "Simplemente regístrate para una prueba gratuita de 14 días..."
+      },
+      {
+        "question": "¿Puedo cancelar mi suscripción en cualquier momento?",
+        "answer": "Sí, puedes cancelar tu suscripción en cualquier momento sin penalizaciones..."
+      }
+    ]
+  },
+
+  "testimonials": {
+    "title": "Amado por profesionales en todo el mundo",
+    "descriptions": [
+      "Zenith transformó cómo gestiono mi carga de trabajo. La programación IA es increíblemente precisa y he recuperado 4 horas de tiempo personal cada semana.",
+      "Como director de marketing, estaba constantemente abrumado. La integración de bienestar de Zenith me ayudó a reconocer patrones de agotamiento y mantener rendimiento máximo de manera sostenible.",
+      "Las características de colaboración en equipo son revolucionarias. Estamos más coordinados que nunca mientras respetamos los límites trabajo-vie de cada uno."
+    ]
+  },
+
+  "securitySupport": {
+    "title": "Seguridad y soporte de nivel empresarial",
+    "description": "Construido con seguridad y confiabilidad en su núcleo, confiado por equipos en empresas Fortune 500",
+    "details": {
+      "security": "Certificado SOC 2 Type II, compatible con GDPR, con cifrado de extremo a extremo y auditorías de seguridad regulares",
+      "uptime": "Infraestructura confiable con respaldos automáticos, recuperación ante desastres y CDN global para rendimiento rápido",
+      "support": "Equipo de soporte experto disponible las 24 horas con tiempo de respuesta promedio menor a 2 horas"
+    }
+  },
+
+  "cta": {
+    "title": "¿Listo para alcanzar tu cima?",
+    "description": "Únete a miles de profesionales que han encontrado el equilibrio perfecto trabajo-vida con productividad impulsada por IA",
+    "actions": {
+      "startFreeTrial": "Comenzar prueba gratuita",
+      "scheduleDemo": "Programar demo"
+    },
+    "highlights": {
+      "freeTrialDays": "Prueba gratuita de 14 días",
+      "noCreditCard": "No se requiere tarjeta de crédito",
+      "cancelAnytime": "Cancela en cualquier momento"
+    }
+  },
+
+  "footer": {
+    "description": "Alcanza tu productividad máxima mientras mantienes un equilibrio perfecto trabajo-vida con insights impulsados por IA.",
+    "links": {
+      "product": "Produit",
+      "company": "Entreprise",
+      "support": "Support",
+      "about": "À propos",
+      "blog": "Blog",
+      "careers": "Carrières",
+      "contact": "Contact",
+      "helpCenter": "Centre d'aide",
+      "documentation": "Documentation",
+      "community": "Communauté",
+      "status": "Statut",
+      "security": "Sécurité"
+    },
+    "copyright": "© 2025 Zenith. Todos los derechos reservados."
+  },
+
+  "auth": {
+    "orContinueWith": "O continuar con",
+    "signIn": {
+      "title": "Bienvenido de nuevo a Zenith",
+      "description": "Inicia sesión en tu cuenta de Zenith para continuar con tu viaje de productividad",
+      "forgotPassword": "¿Olvidaste tu contraseña?",
+      "actions": {
+        "areYouNew": "¿Eres nuevo aquí?",
+        "createAccount": "Crear cuenta"
+      },
+      "form": {
+        "email": "Email",
+        "password": "Contraseña",
+        "login": "Iniciar sesión"
+      },
+      "socialMedia": {
+        "google": "Iniciar sesión con Google",
+        "github": "Iniciar sesión con GitHub"
+      }
+    },
+    "signUp": {
+      "title": "Bienvenido a Zenith",
+      "description": "Crea una cuenta para comenzar tu viaje de productividad",
+      "actions": {
+        "alreadyHaveAccount": "¿Ya tienes una cuenta?",
+        "signIn": "Iniciar sesión"
+      },
+      "orContinueWith": "O continuar con",
+      "form": {
+        "firstName": "Nombre",
+        "lastName": "Apellido",
+        "email": "Email",
+        "password": "Contraseña",
+        "confirmPassword": "Confirmar contraseña",
+        "register": "Registrar"
+      },
+      "socialMedia": {
+        "google": "Iniciar sesión con Google",
+        "github": "Iniciar sesión con GitHub"
+      }
+    }
+  }
+}

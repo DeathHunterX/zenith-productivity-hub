@@ -1,0 +1,290 @@
+{
+  "navigation": {
+    "features": "Features",
+    "pricing": "Pricing",
+    "integrations": "Integrations",
+    "faqs": "FAQs",
+    "signIn": "Sign In",
+    "getStarted": "Get Started"
+  },
+
+  "hero": {
+    "trustedBy": "🚀 Trusted by 25,000+ professionals worldwide",
+    "title": "Reach Your Peak,\nStay Balanced",
+    "description": "Zenith is the AI-powered productivity platform that adapts to your unique work style. Combine intelligent task management, wellness tracking, and automated workflows to achieve peak performance without sacrificing your personal life.",
+    "actions": {
+      "startFreeTrial": "Start Free Trial",
+      "watchDemo": "Watch Demo"
+    },
+    "highlights": {
+      "freeTrialDays": "14-day free trial",
+      "noCreditCard": "No credit card required",
+      "cancelAnytime": "Cancel anytime"
+    }
+  },
+
+  "stats": {
+    "activeUsers": "Active Users",
+    "productivityIncrease": "Productivity Increase",
+    "dailyTimeSaved": "Daily Time Saved",
+    "userSatisfaction": "User Satisfaction"
+  },
+
+  "whyDifferent": {
+    "title": "Why Zenith is different",
+    "description": "Built by productivity experts and wellness professionals, Zenith combines cutting-edge AI with proven psychological principles",
+    "items": {
+      "aiIntelligence": {
+        "title": "AI-Powered Intelligence",
+        "description": "Our machine learning algorithms learn your patterns, predict your energy levels, and automatically optimize your schedule for maximum productivity and wellbeing."
+      },
+      "privacyFirst": {
+        "title": "Privacy-First Design",
+        "description": "Your data stays yours. End-to-end encryption, zero data selling, and complete transparency about how your information is used to improve your experience."
+      },
+      "provenResults": {
+        "title": "Proven Results",
+        "description": "Users report 40% increase in productivity, 60% reduction in stress levels, and 3+ hours of reclaimed personal time per week within the first month."
+      }
+    }
+  },
+
+  "features": {
+    "title": "Complete productivity ecosystem",
+    "description": "Every tool you need to excel professionally while maintaining personal wellbeing, all in one integrated platform",
+    "items": {
+      "smartTaskManagement": {
+        "title": "Smart Task Management",
+        "description": "AI-powered task prioritization with energy-based scheduling, automatic deadline tracking, and intelligent workload balancing across projects"
+      },
+      "intelligentTimeBlocking": {
+        "title": "Intelligent Time Blocking",
+        "description": "Automatically schedule focused work sessions with optimal break timing, meeting-free zones, and deep work protection based on your productivity patterns"
+      },
+      "wellnessIntegration": {
+        "title": "Wellness Integration",
+        "description": "Comprehensive mood, energy, and stress tracking with personalized recommendations for breaks, exercise, and mindfulness practices"
+      },
+      "advancedAnalytics": {
+        "title": "Advanced Analytics",
+        "description": "Detailed insights into productivity patterns, work-life balance metrics, and personalized recommendations for continuous improvement"
+      },
+      "teamCollaboration": {
+        "title": "Team Collaboration",
+        "description": "Seamless team coordination with boundary-respecting communication, shared project visibility, and collaborative goal setting"
+      },
+      "crossPlatformSync": {
+        "title": "Cross-Platform Sync",
+        "description": "Native apps for desktop, mobile, and web with real-time synchronization, offline capabilities, and seamless device switching"
+      }
+    }
+  },
+
+  "useCases": {
+    "title": "Perfect for every professional",
+    "description": "Whether you're leading a team, working solo, or managing multiple projects, Zenith adapts to your unique needs",
+    "items": {
+      "executives": {
+        "title": "Executives & Managers",
+        "description": "Strategic planning, team oversight, and high-level decision making while maintaining work-life boundaries"
+      },
+      "freelancers": {
+        "title": "Freelancers & Consultants",
+        "description": "Client project management, time tracking, and maintaining multiple revenue streams without burnout"
+      },
+      "remoteWorkers": {
+        "title": "Remote Workers",
+        "description": "Home office productivity, virtual collaboration, and clear separation between work and personal time"
+      },
+      "startupTeams": {
+        "title": "Startup Teams",
+        "description": "Rapid scaling, resource optimization, and maintaining team wellness during high-growth phases"
+      }
+    }
+  },
+
+  "integrations": {
+    "title": "Seamlessly connects with your tools",
+    "description": "Zenith integrates with 100+ popular tools to centralize your workflow without disrupting your existing processes",
+    "viewAll": "View All 100+ Integrations"
+  },
+
+  "pricing": {
+    "title": "Simple, transparent pricing",
+    "description": "Choose the plan that fits your needs. All plans include our core productivity features and 24/7 support",
+    "plans": {
+      "starter": {
+        "name": "Starter",
+        "description": "Perfect for individuals getting started",
+        "features": [
+          "Up to 100 tasks/month",
+          "Basic AI scheduling",
+          "Wellness tracking",
+          "Mobile & web apps"
+        ]
+      },
+      "professional": {
+        "name": "Professional",
+        "description": "Ideal for professionals and small teams",
+        "features": [
+          "Unlimited tasks & projects",
+          "Advanced AI insights",
+          "Team collaboration (up to 5)",
+          "All integrations",
+          "Priority support"
+        ]
+      },
+      "enterprise": {
+        "name": "Enterprise",
+        "description": "For large teams and organizations",
+        "features": [
+          "Everything in Professional",
+          "Unlimited team members",
+          "Advanced security & compliance",
+          "Custom integrations",
+          "Dedicated success manager"
+        ]
+      }
+    },
+    "mostPopular": "Most Popular",
+    "contactSales": "Contact Sales",
+    "actions": {
+      "startFreeTrial": "Start Free Trial",
+      "contactSales": "Contact Sales"
+    }
+  },
+
+  "faq": {
+    "title": "Frequently asked questions",
+    "description": "Everything you need to know about Zenith and how it can transform your productivity",
+    "items": [
+      {
+        "question": "How does Zenith's AI actually work?",
+        "answer": "Zenith uses advanced machine learning algorithms to analyze your work patterns, energy levels, and productivity cycles. It learns from your behavior to automatically prioritize tasks, suggest optimal work times, and recommend breaks when you need them most."
+      },
+      {
+        "question": "Is my data secure and private?",
+        "answer": "Absolutely. We use bank-level encryption, are SOC 2 Type II certified, and GDPR compliant. Your data is never sold to third parties, and you maintain full control over your information with the ability to export or delete it at any time."
+      },
+      {
+        "question": "What integrations are available?",
+        "answer": "Zenith integrates with over 100 popular tools including Slack, Gmail, Google Calendar, Notion, Airtable, Zoom, Microsoft Office, Trello, Asana, and many more. We're constantly adding new integrations based on user requests."
+      },
+      {
+        "question": "How is Zenith different from other productivity apps?",
+        "answer": "Unlike traditional task managers, Zenith focuses on work-life balance with AI-powered wellness tracking, energy-based scheduling, and burnout prevention. It's not just about getting more done—it's about sustainable productivity that enhances your overall quality of life."
+      },
+      {
+        "question": "How quickly will I see results?",
+        "answer": "Most users report noticeable improvements within the first week, with significant productivity gains and stress reduction within 30 days. The AI becomes more accurate as it learns your patterns, so results continue to improve over time."
+      },
+      {
+        "question": "Can my team use Zenith together?",
+        "answer": "Yes! Zenith offers robust team collaboration features including shared projects, team analytics, boundary-respecting communication tools, and collaborative goal setting. Team members can work together while maintaining individual work-life balance."
+      },
+      {
+        "question": "How do I get started?",
+        "answer": "Simply sign up for a free 14-day trial—no credit card required. The onboarding process takes just 5 minutes, and our AI will start learning your patterns immediately. You can import data from existing tools to get started faster."
+      },
+      {
+        "question": "Can I cancel my subscription anytime?",
+        "answer": "Yes, you can cancel your subscription at any time with no penalties or fees. Your data remains accessible during your billing period, and you can export everything before your account closes."
+      }
+    ]
+  },
+
+  "testimonials": {
+    "title": "Loved by professionals worldwide",
+    "descriptions": [
+      "Zenith transformed how I manage my workload. The AI scheduling is incredibly accurate, and I've reclaimed 4 hours of personal time each week while being more productive than ever.",
+      "As a marketing director, I was constantly overwhelmed. Zenith's wellness integration helped me recognize burnout patterns and maintain peak performance sustainably.",
+      "The team collaboration features are game-changing. We're more coordinated than ever while respecting each other's work-life boundaries."
+    ]
+  },
+
+  "securitySupport": {
+    "title": "Enterprise-grade security & support",
+    "description": "Built with security and reliability at its core, trusted by teams at Fortune 500 companies",
+    "details": {
+      "security": "SOC 2 Type II certified, GDPR compliant, with end-to-end encryption and regular security audits",
+      "uptime": "Reliable infrastructure with automatic backups, disaster recovery, and global CDN for fast performance",
+      "support": "Expert support team available around the clock with average response time under 2 hours"
+    }
+  },
+
+  "cta": {
+    "title": "Ready to reach your zenith?",
+    "description": "Join thousands of professionals who've found the perfect work-life balance with AI-powered productivity",
+    "actions": {
+      "startFreeTrial": "Start Free Trial",
+      "scheduleDemo": "Schedule Demo"
+    },
+    "highlights": {
+      "freeTrialDays": "14-day free trial",
+      "noCreditCard": "No credit card required",
+      "cancelAnytime": "Cancel anytime"
+    }
+  },
+
+  "footer": {
+    "description": "Reach your peak productivity while maintaining perfect work-life balance with AI-powered insights.",
+    "links": {
+      "product": "Product",
+      "company": "Company",
+      "support": "Support",
+      "about": "About",
+      "blog": "Blog",
+      "careers": "Careers",
+      "contact": "Contact",
+      "helpCenter": "Help Center",
+      "documentation": "Documentation",
+      "community": "Community",
+      "status": "Status",
+      "security": "Security"
+    },
+    "copyright": "© 2025 Zenith. All rights reserved. Reach your peak, stay balanced."
+  },
+
+  "auth": {
+    "orContinueWith": "Or continue with",
+    "signIn": {
+      "title": "Welcome back to Zenith",
+      "description": "Sign in to your Zenith account to continue your productivity journey",
+      "forgotPassword": "Forgot password?",
+      "actions": {
+        "areYouNew": "Are you a new here?",
+        "createAccount": "Create an account"
+      },
+      "form": {
+        "email": "Email",
+        "password": "Password",
+        "login": "Login"
+      },
+      "socialMedia": {
+        "google": "Log in with Google",
+        "github": "Log in with GitHub"
+      }
+    },
+    "signUp": {
+      "title": "Welcome to Zenith",
+      "description": "Create an account to begin with your productivity journey",
+      "actions": {
+        "alreadyHaveAccount": "Already have an account?",
+        "signIn": "Sign In"
+      },
+      "orContinueWith": "Or continue with",
+      "form": {
+        "firstName": "First Name",
+        "lastName": "Last Name",
+        "email": "Email",
+        "password": "Password",
+        "confirmPassword": "Confirm Password",
+        "register": "Register"
+      },
+      "socialMedia": {
+        "google": "Log in with Google",
+        "github": "Log in with GitHub"
+      }
+    }
+  }
+}
