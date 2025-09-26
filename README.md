@@ -53,17 +53,35 @@ It brings together **team collaboration** and **personal wellness tools**, helpi
 
 ### Prerequisites
 
-Before running the project locally, make sure you have API keys for the following services:
+<!-- Before running the project locally, make sure you have API keys for the following services: -->
 
-Create a `.env` file in your client and server root and add all required keys:
+Make sure you have one of the following package managers installed:
 
-- Client
+- [npm](https://www.npmjs.com) (default)
+- [yarn](https://yarnpkg.com)
+- [pnpm](https://pnpm.io)
+- [bun](https://bun.com)
+
+The scripts automatically detect which one you’re using.
+
+### Clone the repository
+
+```bash
+git clone https://github.com/DeathHunterX/zenith-productivity-hub.git
+cd zenith-productivity-hub
+```
+
+### Environment Setup
+
+Create `.env` files inside `client/` and `server/` with the required variables:
+
+- Client (`client/.env`)
 
 ```env
 NEXT_PUBLIC_API_URL=<your_api_url>
 ```
 
-- Server
+- Server (`server/.env.development`)
 
 ```env
 PORT=<your_api_port>
@@ -83,27 +101,97 @@ OAUTH_GITHUB_CLIENT_ID=<your_oauth_github_client_id>
 OAUTH_GITHUB_CLIENT_SECRET=<your_oauth_github_client_secret>
 ```
 
-### Installation
+### Install Dependencies
+
+You don’t need to manually cd into each folder — everything is handled by the helper scripts defined in package.json.
 
 ```bash
-# Clone the repository
-git clone <repository-url>
-cd <project-directory>
+# Install client dependencies (Next.js)
+npm run setup:client
 
-# Install dependencies
-npm install
+# Install server dependencies (NestJS)
+npm run setup:server
 
-# Run the development server
-npm run dev
+# Install docs dependencies (VitePress)
+npm run setup:docs
 
+# Install everything at once
+npm run setup:all
+```
+
+These scripts will:
+
+- Detect your package manager (npm, yarn, pnpm, or bun) automatically
+
+- Run the appropriate install command for the target project
+
+- Work across Windows, macOS, and Linux
+
+### Run the app
+
+Zenith provides unified scripts for running each part of the monorepo. You don’t need to manually cd into each folder — everything is handled by the helper scripts defined in package.json.
+
+The commands adapt to your package manager:
+
+- npm → `npm run dev:client`
+- yarn → `yarn dev:client`
+- pnpm → `pnpm dev:client`
+- bun → `bun run dev:client`
+
+#### Examples
+
+```bash
+# Run Next.js client in dev mode
+npm run dev:client
+# or: yarn dev:client
+# or: pnpm dev:client
+# or: bun run dev:client
+
+# Run NestJS server in watch mode
+npm run dev:server
+
+# Run VitePress docs
+npm run dev:docs
+
+# Run client + server together
+npm run dev:all
 
 ```
 
-Open [http://localhost:3000](http://localhost:3000) to see the project in action.
+#### Build & Production
+
+```bash
+# Build all targets (client, server, docs)
+npm run build:all
+
+# Start NestJS server in production
+npm run start:server
+
+# Start Next.js client in production
+npm run start:client
+
+# Serve documentation
+npm run start:docs
+```
+
+- ✅ Framework-specific commands are mapped
+
+- ✅ Works cross-platform (Windows, macOS, Linux)
+
+- ✅ No need to memorize different next dev, nest start, or vitepress dev commands
+
+### Open the App
+
+- Client (Next.js) → http://localhost:3000
+
+- Server (NestJS) → http://localhost:4000/api
+  (default)
+
+- Docs (VitePress) → http://localhost:5173
 
 ---
 
-## Folder Structure 📂
+## Folder Structure 📂 (Not finished)
 
 ```
 ├── client/              # Next.js app
