@@ -103,7 +103,14 @@ OAUTH_GITHUB_CLIENT_SECRET=<your_oauth_github_client_secret>
 
 ### Install Dependencies
 
-You don’t need to manually cd into each folder — everything is handled by the helper scripts defined in package.json.
+Zenith provides unified scripts for running each part of the monorepo. You don’t need to manually cd into each folder — everything is handled by the helper scripts defined in package.json.
+
+The commands adapt to your package manager:
+
+- npm → `npm run setup:client`
+- yarn → `yarn setup:client`
+- pnpm → `pnpm setup:client`
+- bun → `bun run setup:client`
 
 ```bash
 # Install client dependencies (Next.js)
