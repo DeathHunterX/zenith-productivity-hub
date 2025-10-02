@@ -2,6 +2,7 @@
 import { zodResolver } from "@hookform/resolvers/zod";
 import { useTranslations } from "next-intl";
 import Link from "next/link";
+import { useRouter, useSearchParams } from "next/navigation";
 import { useForm } from "react-hook-form";
 
 // Validations
@@ -23,6 +24,9 @@ import { useSignIn } from "@/features/auth/api/use-sign-in";
 const LoginForm = () => {
   const tSignIn = useTranslations("auth.signIn");
 
+  const searchParams = useSearchParams();
+  const router = useRouter();
+
   const { mutate: signIn, isPending } = useSignIn();
 
   const form = useForm<SignInSchemaType>({
@@ -34,7 +38,13 @@ const LoginForm = () => {
   });
 
   function onSubmit(values: SignInSchemaType) {
-    signIn(values);
+    signIn(values, {
+      onSuccess: () => {
+        const callbackUrl = searchParams.get("callbackUrl");
+        const destination = callbackUrl || "/dashboard";
+        router.push(destination);
+      },
+    });
   }
 
   return (
@@ -46,7 +56,6 @@ const LoginForm = () => {
             label={tSignIn("form.email")}
             placeholder="Enter your email"
             type="email"
-            className="dark:bg-gray-900"
             disabled={isPending}
           />
 
@@ -55,7 +64,6 @@ const LoginForm = () => {
             label={tSignIn("form.password")}
             placeholder="Enter your password"
             type="password"
-            className="dark:bg-gray-900"
             disabled={isPending}
           />
         </div>

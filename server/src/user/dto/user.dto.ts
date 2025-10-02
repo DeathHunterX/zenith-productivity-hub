@@ -18,6 +18,9 @@ export class UserDto {
   country: string;
 
   @Expose()
+  image: string;
+
+  @Expose()
   @Type(() => AccountDto)
   accounts: AccountDto[];
 }

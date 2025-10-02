@@ -283,5 +283,63 @@
         "github": "Se connecter avec GitHub"
       }
     }
+  },
+
+  "settings": {
+    "general": {
+      "title": "Général",
+      "description": "Mettre à jour les informations générales pour votre tableau de bord",
+      "theme": {
+        "title": "Thème par défaut",
+        "description": "Personnalisez votre thème, faites-le plus agréable et confortable pour travailler"
+      },
+      "language": {
+        "title": "Langue par défaut",
+        "description": "Choisissez votre langue par défaut pour votre tableau de bord"
+      }
+    },
+    "account": {
+      "title": "Compte",
+      "description": "Mettre à jour les informations de votre compte pour votre tableau de bord",
+      "form": {
+        "name": {
+          "title": "Nom",
+          "first_name": "Prénom",
+          "last_name": "Nom"
+        },
+        "email": {
+          "title": "Email",
+          "description": "Votre adresse email est utilisée pour se connecter à votre compte et d'autres services",
+          "email": "Email"
+        },
+        "location": {
+          "title": "Location",
+          "country": "Pays",
+          "timezone": "Fuseau horaire",
+          "city": "Ville"
+        },
+        "save": "Enregistrer"
+      }
+    },
+    "security": {
+      "title": "Sécurité",
+      "description": "Mettre à jour les informations de sécurité pour votre tableau de bord"
+    },
+    "plan": {
+      "title": "Plan",
+      "description": "Mettre à jour les informations de plan pour votre tableau de bord"
+    },
+    "billing": {
+      "title": "Facturation",
+      "description": "Mettre à jour les informations de facturation pour votre tableau de bord"
+    },
+    "notifications": {
+      "title": "Notifications",
+      "description": "Mettre à jour les informations de notifications pour votre tableau de bord"
+    },
+    "api": {
+      "title": "API",
+      "description": "Mettre à jour les informations de API pour votre tableau de bord"
+    }
   }
 }

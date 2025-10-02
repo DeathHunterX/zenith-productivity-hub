@@ -29,6 +29,7 @@ import { AuthGuard } from "src/common/guards/auth.guard";
 import { GithubAuthGuard } from "src/common/guards/oauth/github.guard";
 import { GoogleAuthGuard } from "src/common/guards/oauth/google.guard";
 
+import { TokenGuard } from "src/common/guards/token.guard";
 import { Serialize } from "src/common/interceptors/serialize.interceptor";
 import { AuthResponseDto } from "./dtos/auth.dto";
 
@@ -69,7 +70,7 @@ export class AuthController {
     return await this.authService.signOut(refreshToken, res);
   }
 
-  @UseGuards(AuthGuard)
+  @UseGuards(TokenGuard)
   @Post("/refresh-token")
   @HttpCode(200)
   async refreshToken(

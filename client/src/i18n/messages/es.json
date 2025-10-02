@@ -289,5 +289,63 @@
         "github": "Iniciar sesión con GitHub"
       }
     }
+  },
+
+  "settings": {
+    "general": {
+      "title": "General",
+      "description": "Actualizar la información general para tu panel",
+      "theme": {
+        "title": "Tema por defecto",
+        "description": "Personaliza tu tema, hazlo más agradable y cómodo para trabajar"
+      },
+      "language": {
+        "title": "Idioma por defecto",
+        "description": "Elige tu idioma por defecto para tu panel"
+      }
+    },
+    "account": {
+      "title": "Cuenta",
+      "description": "Actualizar la información de tu cuenta para tu panel",
+      "form": {
+        "name": {
+          "title": "Nombre",
+          "first_name": "Nombre",
+          "last_name": "Apellido"
+        },
+        "email": {
+          "title": "Email",
+          "description": "Tu dirección de email es usada para iniciar sesión en tu cuenta y otros servicios",
+          "email": "Email"
+        },
+        "location": {
+          "title": "Ubicación",
+          "country": "País",
+          "timezone": "Zona horaria",
+          "city": "Ciudad"
+        },
+        "save": "Guardar"
+      }
+    },
+    "security": {
+      "title": "Seguridad",
+      "description": "Actualizar la información de seguridad para tu panel"
+    },
+    "plan": {
+      "title": "Plan",
+      "description": "Actualizar la información de plan para tu panel"
+    },
+    "billing": {
+      "title": "Facturación",
+      "description": "Actualizar la información de facturación para tu panel"
+    },
+    "notifications": {
+      "title": "Notificaciones",
+      "description": "Actualizar la información de notificaciones para tu panel"
+    },
+    "api": {
+      "title": "API",
+      "description": "Actualizar la información de API para tu panel"
+    }
   }
 }

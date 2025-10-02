@@ -1,5 +1,5 @@
 import { SignUpSchemaType } from "@/common/validation/auth.validation";
-import { api } from "@/lib/api/axios";
+import { publicApi } from "@/lib/api/axios";
 import { useMutation } from "@tanstack/react-query";
 import { useRouter } from "next/navigation";
 import toast from "react-hot-toast";
@@ -11,7 +11,7 @@ export const useSignUp = () => {
       const { first_name, last_name, email, password } = data;
 
       const full_name = `${first_name} ${last_name}`;
-      const response = await api.post("/auth/sign-up", {
+      const response = await publicApi.post("/auth/sign-up", {
         full_name,
         email,
         password,

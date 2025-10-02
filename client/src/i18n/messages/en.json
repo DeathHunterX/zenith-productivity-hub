@@ -286,5 +286,64 @@
         "github": "Log in with GitHub"
       }
     }
+  },
+
+  "settings": {
+    "general": {
+      "title": "General",
+      "description": "Update the general information for your dashboard",
+
+      "theme": {
+        "title": "Default ThemeTheme",
+        "description": "Customize your theme, make it more enjoyable and comfortable to work"
+      },
+      "language": {
+        "title": "Default Language",
+        "description": "Choose your default language for your dashboard"
+      }
+    },
+    "account": {
+      "title": "Account",
+      "description": "Update the account information for your dashboard",
+      "form": {
+        "name": {
+          "title": "Name",
+          "first_name": "First Name",
+          "last_name": "Last Name"
+        },
+        "email": {
+          "title": "Email",
+          "description": "Your email address is used to login to your account and other services",
+          "email": "Email"
+        },
+        "location": {
+          "title": "Location",
+          "country": "Country",
+          "timezone": "Timezone",
+          "city": "City"
+        },
+        "save": "Save"
+      }
+    },
+    "security": {
+      "title": "Security",
+      "description": "Update the security information for your dashboard"
+    },
+    "plan": {
+      "title": "Plan",
+      "description": "Update the plan information for your dashboard"
+    },
+    "billing": {
+      "title": "Billing",
+      "description": "Update the billing information for your dashboard"
+    },
+    "notifications": {
+      "title": "Notifications",
+      "description": "Update the notifications information for your dashboard"
+    },
+    "api": {
+      "title": "API",
+      "description": "Update the API information for your dashboard"
+    }
   }
 }

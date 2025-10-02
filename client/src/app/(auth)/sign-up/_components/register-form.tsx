@@ -49,14 +49,12 @@ const RegisterForm = () => {
               nameInSchema="first_name"
               label={tSignUp("form.firstName")}
               type="text"
-              className="dark:bg-gray-900"
               disabled={isPending}
             />
             <InputField
               nameInSchema="last_name"
               label={tSignUp("form.lastName")}
               type="text"
-              className="dark:bg-gray-900"
               disabled={isPending}
             />
           </div>
@@ -65,7 +63,6 @@ const RegisterForm = () => {
             label={tSignUp("form.email")}
             placeholder="Enter your email"
             type="email"
-            className="dark:bg-gray-900"
             disabled={isPending}
           />
 
@@ -74,7 +71,6 @@ const RegisterForm = () => {
             label={tSignUp("form.password")}
             placeholder="Enter your password"
             type="password"
-            className="dark:bg-gray-900"
             disabled={isPending}
           />
 
@@ -83,7 +79,6 @@ const RegisterForm = () => {
             label={tSignUp("form.confirmPassword")}
             placeholder="Enter your confirm password"
             type="password"
-            className="dark:bg-gray-900"
             disabled={isPending}
           />
         </div>

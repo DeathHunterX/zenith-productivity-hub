@@ -8,7 +8,7 @@
     "source.fixAll.eslint": "always",
     "source.addMissingImports": "always"
   },
-  "prettier.tabWidth": 2,
+  "prettier.tabWidth": 4,
   "prettier.useTabs": false,
   "prettier.semi": true,
   "prettier.singleQuote": false,

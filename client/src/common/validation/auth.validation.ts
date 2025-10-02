@@ -1,4 +1,5 @@
 import { z } from "zod";
+import { changePasswordSchema } from "./settings.validation";
 
 export const signInSchema = z.object({
   email: z.email({ message: "Invalid email address" }),
@@ -25,8 +26,8 @@ export const signUpSchema = z
     email: z.email({ message: "Invalid email address" }),
     password: z
       .string()
-      .min(6, { message: "Password must be at least 8 characters long." })
-      .max(100, { message: "Password cannot exceed 100 characters." })
+      .min(8, { message: "Password must be at least 8 characters long." })
+      .max(24, { message: "Password cannot exceed 24 characters." })
       .regex(/[A-Z]/, {
         message: "Password must contain at least one uppercase letter.",
       })
@@ -39,10 +40,10 @@ export const signUpSchema = z
       }),
     confirm_password: z
       .string()
-      .min(6, {
+      .min(8, {
         message: "Confirm password must be at least 8 characters long.",
       })
-      .max(100, { message: "Confirm password cannot exceed 100 characters." })
+      .max(24, { message: "Confirm password cannot exceed 24 characters." })
       .regex(/[A-Z]/, {
         message: "Confirm password must contain at least one uppercase letter.",
       })
@@ -62,5 +63,10 @@ export const signUpSchema = z
     path: ["confirm_password"],
   });
 
+export const resetPasswordSchema = changePasswordSchema.omit({
+  old_password: true,
+});
+
 export type SignUpSchemaType = z.infer<typeof signUpSchema>;
 export type SignInSchemaType = z.infer<typeof signInSchema>;
+export type ResetPasswordSchemaType = z.infer<typeof resetPasswordSchema>;

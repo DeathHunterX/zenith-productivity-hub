@@ -33,6 +33,7 @@ export class UserService {
     }
 
     Object.assign(user, body);
+
     return this.userRepository.save(user);
   }
 

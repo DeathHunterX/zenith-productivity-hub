@@ -24,7 +24,7 @@ const AuthWrapper = ({
         <div className="flex justify-center gap-2 lg:justify-between">
           <Logo />
 
-          <div className="">
+          <div className="hidden lg:block">
             <LanguageToggle />
             <ThemeToggle />
           </div>

@@ -17,7 +17,7 @@ const SocialMediaForm = () => {
         onClick={() => signInWithOAuth("google")}
       >
         <Image
-          src="/icons/google.svg"
+          src="assets/icons/google.svg"
           alt="Google Logo"
           width={20}
           height={20}
@@ -31,7 +31,7 @@ const SocialMediaForm = () => {
         onClick={() => signInWithOAuth("github")}
       >
         <Image
-          src="/icons/github.svg"
+          src="assets/icons/github.svg"
           alt="Github Logo"
           width={20}
           height={20}

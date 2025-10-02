@@ -1,4 +1,5 @@
 "use client";
+import { LanguageType, languages } from "@/common/data/language";
 import { Button } from "@/components/ui/button";
 import {
   DropdownMenu,
@@ -10,27 +11,6 @@ import { cn } from "@/lib/utils";
 import { Globe } from "lucide-react";
 import { useRouter } from "next/navigation";
 import { useEffect, useState } from "react";
-
-const languages = {
-  en: {
-    name: "English",
-    code: "EN",
-  },
-  vi: {
-    name: "Tiếng Việt",
-    code: "VI",
-  },
-  es: {
-    name: "Español",
-    code: "ES",
-  },
-  fr: {
-    name: "Français",
-    code: "FR",
-  },
-} as const;
-
-type Language = keyof typeof languages;
 
 const LanguageToggle = () => {
   const [locale, setLocale] = useState<string>("");
@@ -51,7 +31,7 @@ const LanguageToggle = () => {
     }
   }, [router]);
 
-  const onLanguageChange = (code: Language) => {
+  const onLanguageChange = (code: LanguageType) => {
     setLocale(code);
     document.cookie = `LOCALE=${code}; path=/`;
     router.refresh();
@@ -63,7 +43,7 @@ const LanguageToggle = () => {
         <Button variant="ghost" size="sm" className="gap-2">
           <Globe className="w-4 h-4" />
           <span className="hidden sm:inline">
-            {languages[locale as Language]?.code}
+            {languages[locale as LanguageType]?.code}
           </span>
         </Button>
       </DropdownMenuTrigger>
@@ -71,7 +51,7 @@ const LanguageToggle = () => {
         {Object.entries(languages).map(([code, { name }]) => (
           <DropdownMenuItem
             key={code}
-            onClick={() => onLanguageChange(code as Language)}
+            onClick={() => onLanguageChange(code as LanguageType)}
             className={cn(
               "cursor-pointer",
               locale === code ? "bg-accent text-accent-foreground" : "",

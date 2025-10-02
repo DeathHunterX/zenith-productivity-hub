@@ -21,6 +21,9 @@ export class User {
   @Column({ nullable: true })
   country: string;
 
+  @Column({ nullable: true })
+  timezone: string;
+
   @OneToMany(() => Account, (account) => account.user)
   accounts: Account[];
 }

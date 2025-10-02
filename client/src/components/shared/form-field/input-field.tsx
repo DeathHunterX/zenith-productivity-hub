@@ -7,7 +7,12 @@ import {
 } from "@/components/ui/form";
 import { Input } from "@/components/ui/input";
 import { HTMLInputTypeAttribute, InputHTMLAttributes } from "react";
-import { FieldValues, Path, useFormContext } from "react-hook-form";
+import {
+  ControllerRenderProps,
+  FieldValues,
+  Path,
+  useFormContext,
+} from "react-hook-form";
 
 type InputFieldProps<S extends FieldValues> = {
   nameInSchema: keyof S;
@@ -31,8 +36,8 @@ const InputField = <S extends FieldValues>({
     <FormField
       control={form.control}
       name={nameInSchema as Path<S>}
-      render={({ field }) => (
-        <FormItem className="flex w-full flex-col">
+      render={({ field }: { field: ControllerRenderProps<S, Path<S>> }) => (
+        <FormItem className="flex w-full flex-col space-y-1">
           <FormLabel
             className="flex items-start"
             htmlFor={nameInSchema as string}
@@ -43,7 +48,8 @@ const InputField = <S extends FieldValues>({
             <Input
               id={nameInSchema as string}
               type={type}
-              className={`rounded-md border-gray-200 dark:border-gray-800 min-h-10 ${className}`}
+              autoComplete="off"
+              className={`rounded-md border-gray-200 dark:border-gray-800 text-base ${className}`}
               placeholder={placeholder}
               {...field}
               {...props}

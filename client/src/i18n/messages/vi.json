@@ -289,5 +289,63 @@
         "github": "Đăng nhập với GitHub"
       }
     }
+  },
+
+  "settings": {
+    "general": {
+      "title": "Tổng quan",
+      "description": "Cập nhật thông tin tổng quan cho bảng điều khiển của bạn",
+      "theme": {
+        "title": "Giao diện mặc định",
+        "description": "Tùy chỉnh giao diện, làm cho nó thêm thú vị và thoải mái để làm việc"
+      },
+      "language": {
+        "title": "Ngôn ngữ mặc định",
+        "description": "Chọn ngôn ngữ mặc định cho bảng điều khiển của bạn"
+      }
+    },
+    "account": {
+      "title": "Tài khoản",
+      "description": "Cập nhật thông tin tài khoản cho bảng điều khiển của bạn",
+      "form": {
+        "name": {
+          "title": "Tên",
+          "first_name": "Tên",
+          "last_name": "Họ"
+        },
+        "email": {
+          "title": "Email",
+          "description": "Email của bạn được sử dụng để đăng nhập vào tài khoản của bạn và các dịch vụ khác",
+          "email": "Email"
+        },
+        "location": {
+          "title": "Vị trí",
+          "country": "Quốc gia",
+          "timezone": "Múi giờ",
+          "city": "Thành phố"
+        },
+        "save": "Lưu"
+      }
+    },
+    "security": {
+      "title": "Bảo mật",
+      "description": "Cập nhật thông tin bảo mật cho bảng điều khiển của bạn"
+    },
+    "plan": {
+      "title": "Kế hoạch",
+      "description": "Cập nhật thông tin kế hoạch cho bảng điều khiển của bạn"
+    },
+    "billing": {
+      "title": "Thanh toán",
+      "description": "Cập nhật thông tin thanh toán cho bảng điều khiển của bạn"
+    },
+    "notifications": {
+      "title": "Thông báo",
+      "description": "Cập nhật thông tin thông báo cho bảng điều khiển của bạn"
+    },
+    "api": {
+      "title": "API",
+      "description": "Cập nhật thông tin API cho bảng điều khiển của bạn"
+    }
   }
 }
